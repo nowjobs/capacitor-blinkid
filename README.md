@@ -53,3 +53,57 @@ BlinkIDPlugin.startScanning({ recognizers: [idRecognizer, passportRecognizer] })
   }
 );
 ```
+
+### Example
+
+```js
+import { Plugins } from "@capacitor/core";
+
+const { BlinkIDPlugin } = Plugins;
+
+enum ScanningStatus {
+  Cancelled,
+  Succeeded
+}
+
+enum RecognizerDocument {
+  ID,
+  Passport,
+  Combined
+}
+
+enum ResultState {
+  Empty,
+  Valid
+}
+
+class Recognizer {
+  document: RecognizerDocument;
+  returnFullDocumentImage = true;
+  returnFaceImage = true;
+  allowUnverifiedResults = false;
+  allowUnparsedResults = false;
+  result: ResultState;
+
+  constructor(document: RecognizerDocument) {
+    this.document = document;
+    this.result = ResultState.Empty;
+  }
+}
+
+const idRecognizer = new Recognizer(RecognizerDocument.ID);
+const passportRecognizer = new Recognizer(RecognizerDocument.Passport);
+
+BlinkIDPlugin.setLicenseKey({ key: license });
+
+BlinkIDPlugin.startScanning({ recognizers: [idRecognizer, passportRecognizer] })
+  .then((scanResult) => {
+    console.log('✅ Resolved with result', scanResult)
+    resolve(scanResult);
+  })
+  .catch((err) => {
+    console.log('❌ Error', err);
+    reject(err);
+  }
+);
+```
