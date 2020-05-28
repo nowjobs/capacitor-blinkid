@@ -1,0 +1,29 @@
+PODS:
+  - Capacitor (1.5.1):
+    - CapacitorCordova (= 1.5.1)
+  - CapacitorCordova (1.5.1)
+  - PPBlinkID (5.3.0)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - PPBlinkID (~> 5.3.0)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - PPBlinkID
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: 373adb05f4591a70c22adfe979b5a443ac1e9b0a
+  CapacitorCordova: 169792fba40cc325d70b3cbca49d0563acdf5924
+  PPBlinkID: 0cf67faca4becbde9ada3fd082739708c236f157
+
+PODFILE CHECKSUM: c78c074ea15d8e89c1d1724e926d5774c9f2652e
+
+COCOAPODS: 1.7.2

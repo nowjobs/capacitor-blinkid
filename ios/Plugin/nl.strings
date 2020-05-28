@@ -1,0 +1,35 @@
+/* 
+  nl.strings
+  BlinkOCR
+*/
+
+"photopay_close" = "Annuleer";
+"photopay_light_on" = "Licht";
+"photopay_light_off" = "Licht";
+"photopay_camera_permission_denied" = "{font:@Medium}%@{/font} heeft geen toegang tot de camera.\n\nGa naar:\n• {font:@Medium}Installingen{/font}\n• {font:@Medium}%@{/font}\n• Zet {font:@Medium}Camera{/font} aan";
+"photopay_id_position_tooltip" = "Plaats de kaart in het kader";
+"photopay_glare_status" = "Verplaats je kaart een beetje om reflectie te vermijden";
+"blink_card_front_message" = "Scan de voorzijde.";
+"blink_card_back_message" = "Scan de achterzijde.";
+"blink_card_done_message" = "Klaar.";
+
+"photopay_front_verification_document" = "Plaats de voorzijde van het document in het kader en wacht op de automatische scan.";
+"photopay_back_verification_document" = "Plaats de Achterzijde van het document in het kader en wacht op de automatische scan.";
+"photopay_front_splash_verification_document" = "Voorzijde document";
+"photopay_back_splash_verification_document" = "Achterzijde document";
+"photopay_done_splash_verification_document" = "Scannen klaar";
+
+"blinkid_generic_message" = "Scan voorzijde document";
+"blinkid_not_supported_title" = "Document niet herkend";
+"blinkid_not_supported_message" = "Scan de voorzijde van een gesupporteerd document";
+"blinkid_not_supported_action" = "Probeer opnieuw";
+
+"blinkid_sides_dont_match_title" = "Zijdes niet herkend";
+"blinkid_sides_dont_match_message" = "Probeer opnieuw.";
+
+"blinkid_first_side_scanned_message" = "Flip je kaart";
+
+"blinkid_too_near_error_message" = "Te dicht, ga verder.";
+"blinkid_too_far_error_message" = "Te ver, ga dichter.";
+"blinkid_scan_unsuccessful_error_title" = "Scan niet gelukt";
+"blinkid_scan_unsuccessful_error_message" = "Kon het document niet lezen. Probeer opnieuw.";

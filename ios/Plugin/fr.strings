@@ -1,0 +1,35 @@
+/*
+  fr.strings
+  BlinkOCR
+*/
+
+"photopay_close" = "Annuler";
+"photopay_light_on" = "Torche";
+"photopay_light_off" = "Torche";
+"photopay_camera_permission_denied" = "{font:@Medium}%@{/font} n'a pas permission d'utiliser la camera.\n\nNavigez aux:\n• {font:@Medium}Réglages{/font}\n• {font:@Medium}%@{/font}\n• Assurez vous que la {font:@Medium}camera{/font} est activée";
+"photopay_id_position_tooltip" = "Positionnez la carte dans le cadre";
+"photopay_glare_status" = "Basculez la carte légèrement pour éviter le reflet";
+"blink_card_front_message" = "Scannez le côté avant ";
+"blink_card_back_message" = "Scannez the côté arrière.";
+"blink_card_done_message" = "Fini de scanner.";
+
+"photopay_front_verification_document" = "Positionnez l'avant du document dans le cadre et attendez le scan automatique";
+"photopay_back_verification_document" = "Positionnez l'arrière du document dans le cadre et attendez le scan automatique";
+"photopay_front_splash_verification_document" = "Côté avant du document";
+"photopay_back_splash_verification_document" = "Côté arrière du document";
+"photopay_done_splash_verification_document" = "Fini de scanner";
+
+"blinkid_generic_message" = "Scannez l'avant du document";
+"blinkid_not_supported_title" = "Document non reconnu";
+"blinkid_not_supported_message" = "Scan l'avant d'un document supporté.";
+"blinkid_not_supported_action" = "Réassayez";
+
+"blinkid_sides_dont_match_title" = "Côtés ne correspondent pas";
+"blinkid_sides_dont_match_message" = "Veuillez recommencer le scanning";
+
+"blinkid_first_side_scanned_message" = "Retournez la carte";
+
+"blinkid_too_near_error_message" = "Éloignez la carte";
+"blinkid_too_far_error_message" = "Rapprochez la carte";
+"blinkid_scan_unsuccessful_error_title" = "Scan échoué";
+"blinkid_scan_unsuccessful_error_message" = "Incapable de lire le document. Veuillez réassayer";
