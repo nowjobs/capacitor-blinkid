@@ -1,7 +1,7 @@
 {
-  "name": "capacitor-plugin-blinkid",
-  "version": "0.1.0",
-  "description": "A Capacitor plugin for the native BlinkID SDK",
+  "name": "capacitor-blinkid",
+  "version": "1.0.0",
+  "description": "A Capacitor plugin for the native Microblink BlinkID SDK.",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Olivier Overstraete",
+  "author": "NOWJOBS",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"
@@ -25,7 +25,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorPluginBlinkid.podspec"
+    "CapacitorBlinkid.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -39,5 +39,12 @@
     "android": {
       "src": "android"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nowjobs/capacitor-blinkid"
+  },
+  "bugs": {
+    "url": "https://github.com/nowjobs/capacitor-blinkid/issues"
   }
 }
