@@ -1,3 +1,7 @@
+# Deprecated
+
+This plugin is outdated, consider using the official plugin instead https://github.com/BlinkID/blinkid-capacitor
+
 # Capacitor BlinkID
 A Capacitor plugin for the native Microblink BlinkID SDK.
 
